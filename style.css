@@ -1,0 +1,18 @@
+span{
+height:50px ;
+width: 75px;
+background: #DCEDFF;
+}
+div{
+height: 100px;
+width: 45%;
+background: #94B0DA ;
+float: right;
+
+}
+p{  
+    clear: both;
+    height: 200px;
+    width:100px;
+    background: #8F91A2;
+}
