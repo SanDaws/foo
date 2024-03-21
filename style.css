@@ -10,9 +10,108 @@ background: #94B0DA ;
 float: right;
 
 }
-p{  
+.pan{  
     clear: both;
     height: 200px;
     width:100px;
     background: #8F91A2;
+}
+#border-styful{
+    background: linear-gradient(to bottom,blue,white);
+    border: 20px dashed aqua;
+
+    border-right-width: 40px;
+    border-left-width: 20px;
+    border-bottom-width: 30px;
+    border-top-width: 50px;
+    border-radius: 20px;
+    
+}
+
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+/* La propiedad border-width con tamaño especifico*/
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+#imag{
+    display: inline;
+}
+#wizard-1{
+    width: 30%;
+    border-style: double;
+    border-color: #bf8970;
+    border-width: 30px 40px 10px 20px ;
+    padding: 4px;
+}
+#rog-1{
+    width: 30%;
+    border: 30px ;
+    border-style: dashed;
+    border-color: #e3e4e5  ;
+    padding: 4px;
+    }
+#dudu{
+    padding: 2px;
+    width: 30%;
+    border-radius: 30px;
+    border: outset;
+    border-color: #98bf64;
 }
